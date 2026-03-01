@@ -126,7 +126,7 @@ Designed for Hackathon & Prototype Validation
 ## ⚙️ Run Locally
 
 ### Backend
-git clone https://github.com/omin-enhanced/gyan-sarthi.git
+git clone https://github.com/omni-enhanced/Gyan-sarthi.git
 
 cd gyan-sarthi
 pip install -r requirements.txt
@@ -143,4 +143,5 @@ npm run dev
 
 This project is currently under development.  
 Licensing will be updated upon public release.
+
 
