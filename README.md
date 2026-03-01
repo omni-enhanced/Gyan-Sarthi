@@ -32,23 +32,23 @@ This ensures structured learning and measurable growth.
 ## 🧠 Core API Endpoints (Lean MVP)
 
 ### 🔐 Authentication
-POST /auth/register
-POST /auth/login
-GET /auth/profile
+- POST /auth/register
+- POST /auth/login
+- GET /auth/profile
 
 ### 📚 Questions & Practice
-GET /questions?type=diagnostic
-GET /questions?type=practice
-POST /attempts/submit
-GET /student/dashboard
+- GET /questions?type=diagnostic
+- GET /questions?type=practice
+- POST /attempts/submit
+- GET /student/dashboard
 
 ### 📝 Exam Mode
-POST /exam/start
-POST /exam/submit
-GET /exam/result
+- POST /exam/start
+- POST /exam/submit
+- GET /exam/result
 
 ### 🤖 AI Explanation
-POST /ai/explain
+- POST /ai/explain
 
 ---
 
@@ -147,6 +147,7 @@ npm run dev
 
 This project is currently under development.  
 Licensing will be updated upon public release.
+
 
 
 
