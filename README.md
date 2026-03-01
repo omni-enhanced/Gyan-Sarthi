@@ -1,126 +1,145 @@
-🎓 Gyan_Sarthi
+# 🎓 Gyan_Sarthi
 
-Gyan_Sarthi is an AI-driven intelligent learning and exam readiness platform designed for students from Grade 3–12, college learners, and competitive exam aspirants.
+**Gyan_Sarthi** is an AI-driven intelligent learning and exam readiness platform designed for students from Grade 3–12, college learners, and competitive exam aspirants.
 
-🚀 Core Idea
+---
 
-Gyan_Sarthi focuses on quality of understanding rather than quantity of practice.
-It integrates diagnostic assessment, exam-mode intelligence, performance analytics, and a backend-regulated AI explanation system to ensure structured learning and measurable growth.
+## 🚀 Core Idea
 
-🔥 MVP Features
+Gyan_Sarthi focuses on **quality of understanding rather than quantity of practice.**
 
-🔐 Secure Authentication
+It integrates:
 
-🧠 Diagnostic & Practice Mode
+- Diagnostic assessment  
+- Exam-mode intelligence  
+- Performance analytics  
+- Backend-regulated AI explanation system  
 
-📝 Exam Simulation Mode
+This ensures structured learning and measurable growth.
 
-📊 Performance Dashboard
+---
 
-🤖 Backend-Regulated AI Explanation
+## 🔥 MVP Features
 
-🧠 Core API Endpoints (Lean MVP)
-🔐 Authentication
-POST   /auth/register
-POST   /auth/login
-GET    /auth/profile
-📚 Questions & Practice
-GET    /questions?type=diagnostic
-GET    /questions?type=practice
-POST   /attempts/submit
-GET    /student/dashboard
-📝 Exam Mode
-POST   /exam/start
-POST   /exam/submit
-GET    /exam/result
-🤖 AI Explanation
-POST   /ai/explain
-🏗️ Tech Stack
-Frontend
+- 🔐 Secure Authentication  
+- 🧠 Diagnostic & Practice Mode  
+- 📝 Exam Simulation Mode  
+- 📊 Performance Dashboard  
+- 🤖 Backend-Regulated AI Explanation  
 
-React / Next.js
+---
 
-Tailwind CSS
+## 🧠 Core API Endpoints (Lean MVP)
 
-Backend
+### 🔐 Authentication
+POST /auth/register
+POST /auth/login
+GET /auth/profile
 
-FastAPI (Python)
+### 📚 Questions & Practice
+GET /questions?type=diagnostic
+GET /questions?type=practice
+POST /attempts/submit
+GET /student/dashboard
 
-JWT Authentication
+### 📝 Exam Mode
+POST /exam/start
+POST /exam/submit
+GET /exam/result
 
-REST API Architecture
+### 🤖 AI Explanation
+POST /ai/explain
 
-Database
+---
 
-PostgreSQL
+## 🏗️ Tech Stack
 
-AI Layer
+### 🎨 Frontend
 
-Backend-to-backend API integration
+- React / Next.js  
+- Tailwind CSS  
 
-Structured prompt validation
+### ⚙️ Backend
 
-🔐 Security Approach
+- FastAPI (Python)  
+- JWT Authentication  
+- REST API Architecture  
 
-No direct frontend AI calls
+### 🗄️ Database
 
-Backend validation for all AI responses
+- PostgreSQL  
 
-Secure token-based authentication
+### 🤖 AI Layer
 
-Isolated scoring engine
+- Backend-to-backend API integration  
+- Structured prompt validation  
 
-📊 How It Works
+---
 
-User registers and logs in
+## 🔐 Security Approach
 
-Takes diagnostic or practice questions
+- No direct frontend AI calls  
+- Backend validation for all AI responses  
+- Secure token-based authentication  
+- Isolated scoring engine  
 
-Submits attempts
+---
 
-Views performance dashboard
+## 📊 How It Works
 
-Enters exam mode
+1. User registers and logs in  
+2. Takes diagnostic or practice questions  
+3. Submits attempts  
+4. Views performance dashboard  
+5. Enters exam mode  
+6. Receives AI-regulated explanations  
 
-Receives AI-regulated explanations
+---
 
-🌍 Future Scope
+## 🌍 Future Scope
 
-Multi-language support
+- Multi-language support  
+- Institutional dashboards  
+- Competitive exam modules (JEE, NEET, UPSC, GATE)  
+- AI-regulated invigilation mode  
+- Career intelligence analytics  
 
-Institutional dashboards
+---
 
-Competitive exam modules (JEE, NEET, UPSC, GATE)
-
-AI-regulated invigilation mode
-
-Career intelligence analytics
-
-🏆 Impact
+## 🏆 Impact
 
 Gyan_Sarthi ensures students:
 
-Understand deeply
+- Understand deeply  
+- Perform confidently  
+- Improve measurably  
 
-Perform confidently
+---
 
-Improve measurably
+## 📌 Project Status
 
-📌 Project Status
+🚧 MVP Development Phase  
+Designed for Hackathon & Prototype Validation  
 
-🚧 MVP Development Phase
-Designed for Hackathon & Prototype Validation
+---
 
-⚙️ Run Locally
-Backend
-git clone https://github.com/your-username/gyan-sarthi.git
+## ⚙️ Run Locally
+
+### Backend
+git clone https://github.com/omin-enhanced/gyan-sarthi.git
+
 cd gyan-sarthi
 pip install -r requirements.txt
 uvicorn app.main:app --reload
-Frontend
+
+### Frontend
 cd frontend
 npm install
 npm run dev
-📄 License
 
-This project is currently under development. Licensing will be updated upon public release.
+---
+
+## 📄 License
+
+This project is currently under development.  
+Licensing will be updated upon public release.
